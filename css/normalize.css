@@ -1,14 +1,4 @@
-/* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
-========================================*/ 
 
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
 html {
 	 font-family: 'Poppins', sans-serif;
 	-moz-text-size-adjust: 100%;
@@ -1101,3 +1091,38 @@ object {
 }
 
 
+
+/* Esconde o dropdown inicialmente */
+.social-menu .social-dropdown {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	list-style-type: none;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	display: flex;  /* Alinha os itens horizontalmente */
+	max-width: 520px; /* Limita a largura do dropdown */
+	left: 0; /* Alinha à esquerda do item "Redes sociais" */
+  }
+  
+  .social-menu:hover .social-dropdown {
+	display: flex;
+  }
+  
+  .social-dropdown li {
+	margin: 0 0px; /* Espaçamento entre os itens */
+  }
+  
+  .social-dropdown li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+  }
+  
+  .social-dropdown li a i {
+	margin-right: 5px; /* Espaçamento entre ícone e texto */
+  }
+  
